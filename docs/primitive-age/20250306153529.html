@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Climate - TerrafirmaGreg-Guide</title>
+        <title>Knapping - TerrafirmaGreg-Guide</title>
 
 
         <!-- Custom HTML head -->
@@ -152,20 +152,42 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="climate"><a class="header" href="#climate">Climate</a></h1>
-<p>Climate is an important factor of which plants and animals would live. It is calculated from two factors: temperature and hydration.
-Regional temperature is again set by three factors: latitude(Z coordinate), season, and daily time, in which latitude is the strongest. Usually going north(Z -) lowers regional temperature, and south(Z +) increases. It seems that around Z: 5000 is set to be the equator of a world.
-Hydration is mainly calculated by longitude(X coordinate). Going east(X +) increases it while going west(X -) decreases.</p>
+                        <h1 id="knapping"><a class="header" href="#knapping">Knapping</a></h1>
+<p>Knapping is a special way of shaping things. In 5x5 knapping UI, you click cells to be removed. If the recipe is correct, you'll receive the item you've made. In most of the cases, failing to make an item will lose the original material.</p>
+<p>There are four cases in which you knap: stone, clay, leather, and horn. The first two is the most important part of knapping. You can find those recipes in JEI.</p>
+<h2 id="stone-knapping"><a class="header" href="#stone-knapping">Stone Knapping</a></h2>
+<p>Holding the same kind of more than one stones, right-click. 5x5 knapping UI will appear. Click the following cells to get a stone axe head. But watch out! As soon as you start to knap a single cell, you use one stone. Failing to make a tool head will lose the stone.</p>
+<p>Knapping Recipe</p>
+<pre><code>□■□□□
+■■■■□
+■■■■■ -&gt; Stone axe head
+■■■■□
+□■□□□
+
+■□□□■
+■■□■■
+■■□■■ -&gt; Stone knife head (x2)
+■■□■■
+■■□■■
+
+□■■■□
+□■■■□
+□■■■□ -&gt; Stone shovel head
+□■■■□
+□□■□□
+</code></pre>
+<p>Stone axe is for chopping a tree, and stone knife is for gathering thatch, which is used for pit kiln.</p>
+<p>With those tool heads, place them vertically to make stone tools. Congratulations! You now have a fundamental tools to start.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../tfc-basics/20250306152352.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../20250225014717.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../tfc-basics/20250306152451.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../primitive-age/20250307010726.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -175,33 +197,17 @@ Hydration is mainly calculated by longitude(X coordinate). Going east(X +) incre
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../tfc-basics/20250306152352.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../20250225014717.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../tfc-basics/20250306152451.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../primitive-age/20250307010726.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
