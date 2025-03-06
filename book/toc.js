@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="20250225014717.html"><strong aria-hidden="true">1.</strong> The Primitive Age</a></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><a href="20250219122135.html"><strong aria-hidden="true">1.</strong> Introduction to TerrafirmaGreg</a></li><li class="chapter-item expanded "><a href="20250219122225.html"><strong aria-hidden="true">2.</strong> Terrafirmacraft Basics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="tfc-basics/20250306152352.html"><strong aria-hidden="true">2.1.</strong> Geology</a></li><li class="chapter-item expanded "><a href="tfc-basics/20250306152421.html"><strong aria-hidden="true">2.2.</strong> Climate</a></li><li class="chapter-item expanded "><a href="tfc-basics/20250306152451.html"><strong aria-hidden="true">2.3.</strong> Basic Health Care</a></li></ol></li><li class="chapter-item expanded "><a href="20250225014717.html"><strong aria-hidden="true">3.</strong> The Primitive Age</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="primitive-age/20250306153529.html"><strong aria-hidden="true">3.1.</strong> Knapping</a></li><li class="chapter-item expanded "><a href="primitive-age/20250307010726.html"><strong aria-hidden="true">3.2.</strong> Farming</a></li></ol></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split("#")[0];
         if (current_page.endsWith("/")) {

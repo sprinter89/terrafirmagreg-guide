@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Introduction to TerrafirmaGreg - TerrafirmaGreg-Guide</title>
+        <title>Geology - TerrafirmaGreg-Guide</title>
 
 
         <!-- Custom HTML head -->
@@ -12,32 +12,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="body-container">
@@ -89,7 +89,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -123,7 +123,7 @@
                     <h1 class="menu-title">TerrafirmaGreg-Guide</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -152,15 +152,73 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="introduction-to-terrafirmagreg"><a class="header" href="#introduction-to-terrafirmagreg">Introduction to TerrafirmaGreg</a></h1>
-<p>TerrafirmaGreg is a modpack which incorporates two major mods, Terrafirmacraft and GregTech, with many other supplementary mods. The former vastly changes your survival experience, adding new systems and terrains and mods and etc., and the latter helps you automate almost (or literally) every element existing. It might be frustrating though, if you don't know enough necessary information to advance. So this guide will let you know how to and what to do things you need to do.</p>
+                        <h1 id="geology"><a class="header" href="#geology">Geology</a></h1>
+<p>In TerrafirmaGreg, a region has normally 3, sometimes 4 layers of rocks. The rock type of a region determines which ore vains to be generated, so it is important to know the forming of rocks.</p>
+<p>The forming of rocks follows this diagram:</p>
+<pre><code class="language-mermaid">---
+config:
+  layout: elk
+---
+flowchart TD
+ subgraph s1["Sedimentary"]
+ 		subgraph s5[" "]
+        	n1["Shale"]
+        	n6["Claystone"]
+        	n7["Conglomerate"]
+            n1 ~~~ n6
+            n6 ~~~ n7
+          end
+        subgraph s6[" "]
+        	n11["Chalk"]
+        	n10["Dolomite"]
+        	n9["Limestone"]
+            n11 ~~~ n10
+            n10 ~~~ n9
+          end
+        n13["Chert"]
+  end
+ subgraph s2["Metamorphic"]
+        n2["Slate"]
+        n3["Phyllite"]
+        n5["Gneiss"]
+        n8["Marble"]
+        n12["Quartzite"]
+        n4["Schist"]
+  end
+ subgraph s3["Igneous Intrusive"]
+        n16["Granite"]
+        n15["Diorite"]
+        n17["Gabbro"]
+  end
+ subgraph s4["Igneous Extrusive"]
+        n18["Andecite"]
+        n19["Rhyolite"]
+        n21["Basalt"]
+        n20["Dacite"]
+  end
+    s5 --&gt; n2
+    n2 --&gt; n3
+    n3 --&gt; n4 &amp; n5
+    s6 --&gt; n8
+    n13 --&gt; n12
+    n21 ---&gt; |Mafic| n17
+    n18 &amp; n20 --&gt; |Intermediate| n15
+    n19 --&gt; |Ferric| n16
+	s3 --&gt; n4 &amp; n5
+</code></pre>
+<p>Each arrow indicates what rocks usually form underneath it. For example, quartzite is likely to form under chert. The text on arrows between igneous extrusive and intrusive indicates the grade of those rocks.</p>
+<p>Sedimentary and igneous extrusive rocks can form in the top layer, and following rocks will form according to the rules above. Ocean floors are made up of igneous extrusive rocks.</p>
+<p>Sometimes there are Dikes, which are small lines of igneous intrusive rocks. Dikes works as a sample rock of the deeper layer.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../20250219122225.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
-                            <a rel="next prefetch" href="20250219122225.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../tfc-basics/20250306152421.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -170,8 +228,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../20250219122225.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
-                    <a rel="next prefetch" href="20250219122225.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../tfc-basics/20250306152421.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
@@ -202,13 +263,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
