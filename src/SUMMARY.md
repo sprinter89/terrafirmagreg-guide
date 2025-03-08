@@ -7,7 +7,6 @@
     - [Basic Health Care](./tfc-basics/20250306152451.md)
     - [Special Recipes](./tfc-basics/20250308173354.md)
 - [The Primitive Age](./primitive-age/20250225014717.md)
-    - [Knapping](./primitive-age/20250306153529.md)
     - [Stone tools](./primitive-age/20250306153529.md)
     - [Farming](./primitive-age/20250307010726.md)
     - [Place to Sleep](./primitive-age/20250307015405.md)
