@@ -14,3 +14,4 @@
     - [Fire Clay](./primitive-age/20250308163610.md)
     - [Clay Items](./primitive-age/20250308175403.md)
     - [Barrels](./primitive-age/20250309014151.md)
+    - [Heating](./primitive-age/20250309022123.md)
