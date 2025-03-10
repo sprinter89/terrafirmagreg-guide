@@ -6,6 +6,7 @@
     - [Climate](./tfc-basics/20250306152421.md)
     - [Basic Health Care](./tfc-basics/20250306152451.md)
     - [Special Recipes](./tfc-basics/20250308173354.md)
+
 # The Primitive Age
 - [Main Branch](./primitive-age/20250225014717.md)
 - [In-depth Techniques]()
