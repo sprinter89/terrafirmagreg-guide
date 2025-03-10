@@ -8,10 +8,15 @@
     - [Special Recipes](./tfc-basics/20250308173354.md)
 
 # The Primitive Age
-- [Main Branch](./primitive-age/20250225014717.md)
+- [The Primitive Age](./primitive-age/20250225014717.md)
+    - [The Stone Age](./20250310171200.md)
+    - [The Copper Age](./20250310171303.md)
+    - [The Bronze Age](./20250310171342.md)
+    - [The Wrought Iron Age](./20250310171355.md)
+    - [The Steel Age](./20250310171533.md)
 - [In-depth Techniques]()
     - [Stone tools](./primitive-age/20250306153529.md)
-    - [Farming](./primitive-age/20250307010726.md)
+    - [Farming]()
     - [Place to Sleep](./primitive-age/20250307015405.md)
     - [Fire Clay](./primitive-age/20250308163610.md)
     - [Clay Items](./primitive-age/20250308175403.md)
