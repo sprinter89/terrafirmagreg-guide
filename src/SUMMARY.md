@@ -9,11 +9,11 @@
 
 # The Primitive Age
 - [The Primitive Age](./primitive-age/20250225014717.md)
-    - [The Stone Age](./20250310171200.md)
-    - [The Copper Age](./20250310171303.md)
-    - [The Bronze Age](./20250310171342.md)
-    - [The Wrought Iron Age](./20250310171355.md)
-    - [The Steel Age](./20250310171533.md)
+    - [The Stone Age](./primitive-age/20250310171200.md)
+    - [The Copper Age](./primitive-age/20250310171303.md)
+    - [The Bronze Age](./primitive-age/20250310171342.md)
+    - [The Wrought Iron Age](./primitive-age/20250310171355.md)
+    - [The Steel Age](./primitive-age/20250310171533.md)
 - [In-depth Techniques]()
     - [Stone tools](./primitive-age/20250306153529.md)
     - [Farming]()
