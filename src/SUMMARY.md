@@ -38,9 +38,9 @@
 
 # The LV Age
 - [The LV Age]()
-    - [[Basic Mixer]]
-    - [[Basic Wiremil]]
-    - [[Basic Extractor and Basic Fluid Solidifier]]
+    - [Basic Mixer]()
+    - [Basic Wiremil]()
+    - [Basic Extractor and Basic Fluid Solidifier]()
 
 # The MV Age
 - [The MV Age]()
