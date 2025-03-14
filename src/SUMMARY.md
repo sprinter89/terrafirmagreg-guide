@@ -15,7 +15,7 @@
     - [The Wrought Iron Age](./primitive-age/20250310171355.md)
     - [The Steel Age](./primitive-age/20250310171533.md)
 - [In-depth Techniques]()
-    - [Anvils](./20250310130131.md)
+    - [Anvils](./primitive-age/20250310130131.md)
     - [Barrels](./primitive-age/20250309014151.md)
     - [Beekeeping]()
     - [Clay Items](./primitive-age/20250308175403.md)
