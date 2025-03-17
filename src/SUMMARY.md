@@ -41,7 +41,7 @@
     - [Food Condensing]()
     - [Heating](./in-depth-topcis/primitive-age/20250309022123.md)
     - [Leather Making]()
-    - [Mining and Cave-ins]()
+    - [Mining](./in-depth-topics/primitive-age/20250317130259.md)
     - [Place to Sleep](./in-depth-topcis/primitive-age/20250307015405.md)
     - [Stone tools](./in-depth-topcis/primitive-age/20250306153529.md)
 
