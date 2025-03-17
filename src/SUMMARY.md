@@ -32,18 +32,18 @@
 ---
 # In-depth Techniques
 - [The Primitive Age]()
-    - [Anvils](./primitive-age/20250310130131.md)
-    - [Barrels](./in-depth-topcis/primitive-age/20250309014151.md)
+    - [Anvils](./in-depth-topics/primitive-age/20250310130131.md)
+    - [Barrels](./in-depth-topics/primitive-age/20250309014151.md)
     - [Beekeeping]()
-    - [Clay Items](./in-depth-topcis/primitive-age/20250308175403.md)
+    - [Clay Items](./in-depth-topics/primitive-age/20250308175403.md)
     - [Farming]()
-    - [Fire Clay](./in-depth-topcis/primitive-age/20250308163610.md)
+    - [Fire Clay](./in-depth-topics/primitive-age/20250308163610.md)
     - [Food Condensing]()
-    - [Heating](./in-depth-topcis/primitive-age/20250309022123.md)
+    - [Heating](./in-depth-topics/primitive-age/20250309022123.md)
     - [Leather Making]()
     - [Mining](./in-depth-topics/primitive-age/20250317130259.md)
-    - [Place to Sleep](./in-depth-topcis/primitive-age/20250307015405.md)
-    - [Stone tools](./in-depth-topcis/primitive-age/20250306153529.md)
+    - [Place to Sleep](./in-depth-topics/primitive-age/20250307015405.md)
+    - [Stone tools](./in-depth-topics/primitive-age/20250306153529.md)
 
 ---
 
