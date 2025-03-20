@@ -17,10 +17,7 @@
     - [The Wrought Iron Age](./advancements/primitive-age/20250310171355.md)
     - [The Steel Age](./advancements/primitive-age/20250310171533.md)
 
-- [The Steam/Mechanical Age]()
-    - [The Steam Age]()
-    - [The Mechanical Age]()
-    - [The Black and Colored Steel Age]()
+- [The Steam/Mechanical Age](./advancements/mechanical-steam-age/20250320160208.md)
 
 - [The LV Age]()
     - [Basic Mixer]()
