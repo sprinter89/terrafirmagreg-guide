@@ -18,6 +18,11 @@
     - [The Steel Age](./advancements/primitive-age/20250310171533.md)
 
 - [The Steam/Mechanical Age](./advancements/mechanical-steam-age/20250320160208.md)
+    - [Mechanical Press](./advancements/mechanical-steam-age/20250324150126.md)
+    - [Single Block Boilers](./advancements/mechanical-steam-age/20250324150036.md)
+    - [Fluid Pipes](./advancements/mechanical-steam-age/20250324150109.md)
+    - [Unlocking a Cogwheel](./advancements/mechanical-steam-age/20250324150147.md)
+    - [Upgrading a Blast Furnace](./advancements/mechanical-steam-age/20250324150209.md)
 
 - [The LV Age]()
     - [Basic Mixer]()
