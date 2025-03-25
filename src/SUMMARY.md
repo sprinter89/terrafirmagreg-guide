@@ -24,12 +24,12 @@
     - [Unlocking a Cogwheel](./advancements/mechanical-steam-age/20250324150147.md)
     - [Upgrading a Blast Furnace](./advancements/mechanical-steam-age/20250324150209.md)
 
-- [The LV Age]()
+- [Low Voltage](./advancements/lv/20250325110937.md)
     - [Basic Mixer]()
     - [Basic Wiremil]()
     - [Basic Extractor and Basic Fluid Solidifier]()
 
-- [The MV Age]()
+- [Medium Voltage](./advancements/mv/20250325111027.md)
 
 ---
 # In-depth Techniques
