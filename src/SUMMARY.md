@@ -45,6 +45,7 @@
     - [Leather Making]()
     - [Mining](./in-depth-topics/primitive-age/20250317130259.md)
     - [Place to Sleep](./in-depth-topics/primitive-age/20250307015405.md)
+    - [Primitive Ore Processing](./in-depth-topics/primitive-age/20250327171215.md)
     - [Stone tools](./in-depth-topics/primitive-age/20250306153529.md)
 
 ---
