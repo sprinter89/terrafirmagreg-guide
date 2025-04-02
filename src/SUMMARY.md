@@ -33,20 +33,20 @@
 
 ---
 # In-depth Techniques
-- [The Primitive Age]()
-    - [Anvils](./in-depth-topics/primitive-age/20250310130131.md)
-    - [Barrels](./in-depth-topics/primitive-age/20250309014151.md)
+- [Terrafirmacraft]()
+    - [Anvils](./in-depth-topics/tfc/20250310130131.md)
+    - [Barrels](./in-depth-topics/tfc/20250309014151.md)
     - [Beekeeping]()
-    - [Clay Items](./in-depth-topics/primitive-age/20250308175403.md)
+    - [Clay Items](./in-depth-topics/tfc/20250308175403.md)
     - [Farming]()
-    - [Fire Clay](./in-depth-topics/primitive-age/20250308163610.md)
+    - [Fire Clay](./in-depth-topics/tfc/20250308163610.md)
     - [Food Condensing]()
-    - [Heating](./in-depth-topics/primitive-age/20250309022123.md)
+    - [Heating](./in-depth-topics/tfc/20250309022123.md)
     - [Leather Making]()
-    - [Mining](./in-depth-topics/primitive-age/20250317130259.md)
-    - [Place to Sleep](./in-depth-topics/primitive-age/20250307015405.md)
-    - [Primitive Ore Processing](./in-depth-topics/primitive-age/20250327171215.md)
-    - [Stone tools](./in-depth-topics/primitive-age/20250306153529.md)
+    - [Mining](./in-depth-topics/tfc/20250317130259.md)
+    - [Place to Sleep](./in-depth-topics/tfc/20250307015405.md)
+    - [Primitive Ore Processing](./in-depth-topics/gtceu/20250327171215.md)
+    - [Stone tools](./in-depth-topics/tfc/20250306153529.md)
 
 ---
 
